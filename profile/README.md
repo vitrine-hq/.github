@@ -35,10 +35,10 @@ Vitrine keeps the catalog in sync with the store's ERP automatically and turns a
 
 ## Repositories
 
-| Repository | What it is | Visibility |
-|---|---|---|
-| `vitrine-api` | Backend API and worker: ERP sync, catalog publishing, image processing and orders | Private |
-| `vitrine-web` | Storefront and merchant admin, multilingual and responsive | Private |
+| Repository    | What it is                                                                        | Visibility |
+| ------------- | --------------------------------------------------------------------------------- | ---------- |
+| `vitrine-api` | Backend API and worker: ERP sync, catalog publishing, image processing and orders | Private    |
+| `vitrine-web` | Storefront and merchant admin, multilingual and responsive                        | Private    |
 
 ## Built with
 
@@ -49,17 +49,5 @@ Python, FastAPI and PostgreSQL on Google Cloud Run. React, TypeScript and Vite o
 - **Fast for shoppers.** The catalog is served from the edge and keeps working even if the backend is unavailable.
 - **The ERP is the source of truth.** Prices and stock come from Bling; the store only adds presentation on top.
 - **Private by default.** Customers share only what is needed to place an order, in line with Brazil's LGPD.
-
-## Status
-
-Vitrine is in early development. The first release is being built together with a jewelry store in Brazil.
-
-- [ ] Foundation: infrastructure, CI/CD and authentication
-- [ ] Bling ERP sync
-- [ ] Published catalog
-- [ ] Bag and WhatsApp checkout
-- [ ] Admin dashboard
-- [ ] Batch photo import
-- [ ] Hardening and launch
 
 <p align="center"><sub>Built in Brazil.</sub></p>
