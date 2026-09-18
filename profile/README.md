@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vitrine-hq/.github/main/profile/assets/vitrine-mark-white.png">
-    <img src="https://raw.githubusercontent.com/vitrine-hq/.github/main/profile/assets/vitrine-mark-teal.png" alt="Vitrine logo" width="96">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vitrine-hq/.github/main/profile/assets/vitrine-symbol-white.png">
+    <img src="https://raw.githubusercontent.com/vitrine-hq/.github/main/profile/assets/vitrine-symbol-teal.png" alt="Vitrine logo" width="96">
   </picture>
 </p>
 
